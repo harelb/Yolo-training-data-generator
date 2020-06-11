@@ -52,6 +52,10 @@ Screenshots:
 ### Graphical user interface
 Start the Java application by opening the file **ImgGeneration.jar**. Over the graphical interface you can take all your desired setups as described in the previous paragraph. By clicking *'Generate Images'* the Java application triggers the Python script taking care of generating the images.<br />
 
+```
+java -jar --module-path /usr/share/openjfx/lib --add-modules=javafx.base,javafx.controls,javafx.fxml,javafx.graphics,javafx.media,javafx.swing,javafx.web ImgGenerator.jar 
+```
+
 ### Use Python script
 Alternatively you can directly invoke the Python script. But this only works, if you previously configurated your settings with the GUI and so the file 'data.xml' is created. Then you can invoke the Python script with the following command:
 ```console
