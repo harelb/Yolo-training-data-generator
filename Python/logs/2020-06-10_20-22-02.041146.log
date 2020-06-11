@@ -1,0 +1,56 @@
+XML-Parser: object path: /home/harel/Documents/Green Screen 5-18-20
+XML-Parser: background path: /usr/share/backgrounds
+XML-Parser: output path: /home/harel/Documents/data_gen
+XML-Parser: found 1 filter chain(s)
+
+Process filter chain number 1:
+   => 1 objects get placed onto each generated image
+   => Resize image (with aspect ratio) from [3227, 2160] to [621, 416]
+   => Crop image from resolution [621, 416] to [416, 416]
+   => Resize (with aspect ratio) and crop image from [3227, 2160] to [416, 416]
+   => get random background from background path: '/usr/share/backgrounds/Spices_in_Athens_by_Makis_Chourdakis.jpg'
+   => object image path '20200518_123532.jpg'
+   => Clipping object image by removing green color
+   => Adjusting object size relative to background size
+   => Resize image (with aspect ratio) from [4655, 1268] to [124, 33]
+   => translate by x: 0.5 and y: 0.5
+   => merge object and background
+   => stored image to '/home/harel/Documents/data_gen/1.jpg'
+   => Generating YOLO file '1.txt'
+... done processing filter chain number 1
+
+Process filter chain number 2:
+   => 1 objects get placed onto each generated image
+   => Resize image (with aspect ratio) from [3240, 2160] to [624, 416]
+   => Crop image from resolution [624, 416] to [416, 416]
+   => Resize (with aspect ratio) and crop image from [3240, 2160] to [416, 416]
+   => get random background from background path: '/usr/share/backgrounds/Manhattan_Sunset_by_Giacomo_Ferroni.jpg'
+   => object image path '20200518_123738.jpg'
+   => Clipping object image by removing green color
+   => Adjusting object size relative to background size
+   => Resize image (with aspect ratio) from [4118, 3491] to [124, 105]
+   => translate by x: 0.5 and y: 0.5
+   => merge object and background
+   => stored image to '/home/harel/Documents/data_gen/2.jpg'
+   => Generating YOLO file '2.txt'
+... done processing filter chain number 2
+
+Process filter chain number 3:
+   => 1 objects get placed onto each generated image
+   => Resize image (with aspect ratio) from [3240, 2160] to [624, 416]
+   => Crop image from resolution [624, 416] to [416, 416]
+   => Resize (with aspect ratio) and crop image from [3240, 2160] to [416, 416]
+   => get random background from background path: '/usr/share/backgrounds/Raindrops_On_The_Table_by_Alex_Fazit.jpg'
+   => object image path '20200518_123750.jpg'
+   => Clipping object image by removing green color
+   => Adjusting object size relative to background size
+   => Resize image (with aspect ratio) from [4655, 3491] to [124, 92]
+   => translate by x: 0.5 and y: 0.5
+   => merge object and background
+   => stored image to '/home/harel/Documents/data_gen/3.jpg'
+   => Generating YOLO file '3.txt'
+... done processing filter chain number 3
+
+Process filter chain number 4:
+   => 1 objects get placed onto each generated image
+   => Resize image (with aspect ratio) from [4096, 2304] to [739, 416]

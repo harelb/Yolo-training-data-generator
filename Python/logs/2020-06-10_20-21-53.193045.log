@@ -1,0 +1,53 @@
+XML-Parser: object path: /home/harel/AppData/Local/imageGen/std_object
+XML-Parser: background path: /home/harel/AppData/Local/imageGen/std_background
+XML-Parser: output path: /home/harel/AppData/Local/imageGen/output
+XML-Parser: found 3 filter chain(s)
+
+Process filter chain number 1:
+   => 1 objects get placed onto each generated image
+   => Resize image (with aspect ratio) from [180, 180] to [180, 180]
+   => Crop image from resolution [180, 180] to [180, 180]
+   => Resize (with aspect ratio) and crop image from [180, 180] to [180, 180]
+   => get random background from background path: '/home/harel/AppData/Local/imageGen/std_background/back.jpg'
+   => object image path 'obj.png'
+   => Object image is already clipped
+   => Adjusting object size relative to background size
+   => Resize image (with aspect ratio) from [154, 107] to [54, 37]
+   => translate by x: 0.5 and y: 0.5
+   => merge object and background
+   => stored image to '/home/harel/AppData/Local/imageGen/output/1.jpg'
+   => Generating YOLO file '1.txt'
+... done processing filter chain number 1
+
+Process filter chain number 2:
+   => 1 objects get placed onto each generated image
+   => Resize image (with aspect ratio) from [180, 180] to [180, 180]
+   => Crop image from resolution [180, 180] to [180, 180]
+   => Resize (with aspect ratio) and crop image from [180, 180] to [180, 180]
+   => get random background from background path: '/home/harel/AppData/Local/imageGen/std_background/back.jpg'
+   => object image path 'obj.png'
+   => Object image is already clipped
+   => Adjusting object size relative to background size
+   => Resize image (with aspect ratio) from [154, 107] to [54, 37]
+   => translate by x: 0.5 and y: 0.5
+   => merge object and background
+   => stored image to '/home/harel/AppData/Local/imageGen/output/2.jpg'
+   => Generating YOLO file '2.txt'
+... done processing filter chain number 2
+
+Process filter chain number 3:
+   => 1 objects get placed onto each generated image
+   => Resize image (with aspect ratio) from [180, 180] to [180, 180]
+   => Crop image from resolution [180, 180] to [180, 180]
+   => Resize (with aspect ratio) and crop image from [180, 180] to [180, 180]
+   => get random background from background path: '/home/harel/AppData/Local/imageGen/std_background/back.jpg'
+   => object image path 'obj.png'
+   => Object image is already clipped
+   => Adjusting object size relative to background size
+   => Resize image (with aspect ratio) from [154, 107] to [54, 37]
+   => translate by x: 0.5 and y: 0.5
+   => merge object and background
+   => stored image to '/home/harel/AppData/Local/imageGen/output/3.jpg'
+   => Generating YOLO file '3.txt'
+... done processing filter chain number 3
+
